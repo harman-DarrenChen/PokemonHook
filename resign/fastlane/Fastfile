@@ -29,9 +29,9 @@ platform :ios do
   lane :resign do
 
     resign(
-              ipa: "pokemon.ipa",
-              signing_identity: "iPhone Distribution: Your Company Inc.",
-              provisioning_profile: "your.provisioning_profile”
+              ipa: "/Users/stc/PokemonHook/resign/fastlane/pokemon.ipa",
+              signing_identity: "iPhone Distribution: Chen Jia",
+              provisioning_profile: "/Users/stc/Downloads/pokemonGONY.mobileprovision"
            )
 
   end
